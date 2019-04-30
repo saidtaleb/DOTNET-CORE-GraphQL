@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\bin\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.deps.json
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\bin\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.runtimeconfig.json
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\bin\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\bin\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.dll
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.RazorAssemblyInfo.cache
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.RazorAssemblyInfo.cs
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\bin\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.pdb
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.dll
+C:\Users\ASUS\source\repos\GraphQL_DOTNET_CORE\GraphQL_DOTNET_CORE\obj\Debug\netcoreapp2.1\GraphQL_DOTNET_CORE.pdb
