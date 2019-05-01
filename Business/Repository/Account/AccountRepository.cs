@@ -1,11 +1,11 @@
-﻿using GraphQL_DOTNET_CORE.Enitites.Context;
+﻿using GraphQL_DOTNET_CORE.Business.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace GraphQL_DOTNET_CORE.Repository.Owner
+namespace GraphQL_DOTNET_CORE.Repository.Business.Account
 {
     public class AccountRepository : IAccountRepository
     {
@@ -16,11 +16,11 @@ namespace GraphQL_DOTNET_CORE.Repository.Owner
             _context = context;
         }
 
-        public IEnumerable<Enitites.Account> GetAllAccountsPerOwner(Guid ownerId) => _context.Accounts
+        public IEnumerable<GraphQL_DOTNET_CORE.Business.Entities.Account> GetAllAccountsPerOwner(Guid ownerId) => _context.Accounts
         .Where(a => a.OwnerId.Equals(ownerId))
         .ToList();
 
-        public async Task<ILookup<Guid, Enitites.Account>> GetAccountsByOwnerIds(IEnumerable<Guid> ownerIds)
+        public async Task<ILookup<Guid, GraphQL_DOTNET_CORE.Business.Entities.Account>> GetAccountsByOwnerIds(IEnumerable<Guid> ownerIds)
         {
             var accounts = await _context.Accounts.Where(a => ownerIds.Contains(a.OwnerId)).ToListAsync();
             return accounts.ToLookup(x => x.OwnerId);

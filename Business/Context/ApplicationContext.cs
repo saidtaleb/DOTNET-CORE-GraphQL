@@ -1,11 +1,12 @@
-﻿using GraphQL_DOTNET_CORE.Entities.Context;
+﻿using GraphQL_DOTNET_CORE.Business.Context.Config;
+using GraphQL_DOTNET_CORE.Business.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Enitites.Context
+namespace GraphQL_DOTNET_CORE.Business.Context
 {
     public class ApplicationContext : DbContext
     {

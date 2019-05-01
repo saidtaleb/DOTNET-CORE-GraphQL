@@ -4,10 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Server;
-using GraphQL_DOTNET_CORE.Enitites.Context;
-using GraphQL_DOTNET_CORE.Entities.GraphQL.GraphQLSchema;
-using GraphQL_DOTNET_CORE.Repository.Account;
-using GraphQL_DOTNET_CORE.Repository.Owner;
 using GraphQL.Server.Ui.Playground;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -18,6 +14,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Microsoft.EntityFrameworkCore;
+using GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLSchema;
+using GraphQL_DOTNET_CORE.Business.Repository.Owner;
+using GraphQL_DOTNET_CORE.Business.Context;
+using GraphQL_DOTNET_CORE.Repository.Business.Account;
 
 namespace GraphQL_DOTNET_CORE
 {

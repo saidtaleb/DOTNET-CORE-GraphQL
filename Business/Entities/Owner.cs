@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Enitites
+namespace GraphQL_DOTNET_CORE.Business.Entities
 {
     public class Owner
     {

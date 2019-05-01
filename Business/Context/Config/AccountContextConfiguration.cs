@@ -1,5 +1,5 @@
-﻿using GraphQL_DOTNET_CORE.Enitites;
-using GraphQL_DOTNET_CORE.Enums;
+﻿using GraphQL_DOTNET_CORE.Business.Entities;
+using GraphQL_DOTNET_CORE.Business.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.Context
+namespace GraphQL_DOTNET_CORE.Business.Context.Config
 {
     public class AccountContextConfiguration : IEntityTypeConfiguration<Account>
     {

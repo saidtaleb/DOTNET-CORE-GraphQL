@@ -1,12 +1,13 @@
 ﻿using GraphQL;
 using GraphQL.Types;
-using GraphQL_DOTNET_CORE.Repository.Account;
+using GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLTypes;
+using GraphQL_DOTNET_CORE.Business.Repository.Owner;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.GraphQL.GraphQLSchema
+namespace GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLSchema
 {
     public class AppQuery : ObjectGraphType
     {

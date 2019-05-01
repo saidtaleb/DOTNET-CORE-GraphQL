@@ -1,4 +1,4 @@
-﻿using GraphQL_DOTNET_CORE.Enitites;
+﻿using GraphQL_DOTNET_CORE.Business.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.Context
+namespace GraphQL_DOTNET_CORE.Business.Context.Config
 {
     public class OwnerContextConfiguration : IEntityTypeConfiguration<Owner>
     {

@@ -1,4 +1,4 @@
-﻿using GraphQL_DOTNET_CORE.Enums;
+﻿using GraphQL_DOTNET_CORE.Business.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Enitites
+namespace GraphQL_DOTNET_CORE.Business.Entities
 {
     public class Account
     {

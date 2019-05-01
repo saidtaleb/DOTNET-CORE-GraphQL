@@ -1,10 +1,10 @@
-﻿using GraphQL_DOTNET_CORE.Enitites.Context;
+﻿using GraphQL_DOTNET_CORE.Business.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Repository.Account
+namespace GraphQL_DOTNET_CORE.Business.Repository.Owner
 {
     public class OwnerRepository : IOwnerRepository
     {
@@ -15,11 +15,11 @@ namespace GraphQL_DOTNET_CORE.Repository.Account
             _context = context;
         }
 
-        public IEnumerable<Enitites.Owner> GetAll() => _context.Owners.ToList();
+        public IEnumerable<Entities.Owner> GetAll() => _context.Owners.ToList();
 
-        public Enitites.Owner GetById(Guid id) => _context.Owners.SingleOrDefault(o => o.Id.Equals(id));
+        public Entities.Owner GetById(Guid id) => _context.Owners.SingleOrDefault(o => o.Id.Equals(id));
 
-        public Enitites.Owner CreateOwner(Enitites.Owner owner)
+        public Entities.Owner CreateOwner(Entities.Owner owner)
         {
             owner.Id = Guid.NewGuid();
             _context.Add(owner);
@@ -27,7 +27,7 @@ namespace GraphQL_DOTNET_CORE.Repository.Account
             return owner;
         }
 
-        public Enitites.Owner UpdateOwner(Enitites.Owner dbOwner, Enitites.Owner owner)
+        public Entities.Owner UpdateOwner(Entities.Owner dbOwner, Entities.Owner owner)
         {
             dbOwner.Name = owner.Name;
             dbOwner.Address = owner.Address;
@@ -37,7 +37,7 @@ namespace GraphQL_DOTNET_CORE.Repository.Account
             return dbOwner;
         }
 
-        public void DeleteOwner(Enitites.Owner owner)
+        public void DeleteOwner(Entities.Owner owner)
         {
             _context.Remove(owner);
             _context.SaveChanges();

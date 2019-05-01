@@ -1,19 +1,19 @@
 ﻿using GraphQL;
 using GraphQL.Types;
-using GraphQL_DOTNET_CORE.Enitites;
-using GraphQL_DOTNET_CORE.Entities.GraphQL.GraphQLSchema;
-using GraphQL_DOTNET_CORE.Repository.Account;
+using GraphQL_DOTNET_CORE.Business.Entities;
+using GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLTypes;
+using GraphQL_DOTNET_CORE.Business.Repository.Owner;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.GraphQL.Mutations
+namespace GraphQL_DOTNET_CORE.Business.GraphQL.Mutations
 {
     public class AppMutation : ObjectGraphType
     {
         public AppMutation(IOwnerRepository repository)
-        {
+        {   
             Field<OwnerType>(
                 "createOwner",
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<OwnerInputType>> { Name = "owner" }),

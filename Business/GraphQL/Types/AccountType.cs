@@ -1,11 +1,11 @@
 ﻿using GraphQL.Types;
-using GraphQL_DOTNET_CORE.Enitites;
+using GraphQL_DOTNET_CORE.Business.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.GraphQL.GraphQLSchema
+namespace GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLTypes
 {
     public class AccountType : ObjectGraphType<Account>
     {

@@ -1,13 +1,13 @@
 ﻿using GraphQL.DataLoader;
 using GraphQL.Types;
-using GraphQL_DOTNET_CORE.Enitites;
-using GraphQL_DOTNET_CORE.Repository.Owner;
+using GraphQL_DOTNET_CORE.Business.Entities;
+using GraphQL_DOTNET_CORE.Repository.Business.Account;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL_DOTNET_CORE.Entities.GraphQL.GraphQLSchema
+namespace GraphQL_DOTNET_CORE.Business.GraphQL.GraphQLTypes
 {
     public class OwnerType : ObjectGraphType<Owner>
     {
